@@ -5,6 +5,7 @@
 #include "DGModule.hpp"
 
 #include <vector>
+#include <iostream>
 
 static const GSResID AddOnInfoID			= ID_ADDON_INFO;
 	static const Int32 AddOnNameID			= 1;

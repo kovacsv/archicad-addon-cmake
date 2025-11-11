@@ -4,6 +4,10 @@
 #include <GSNew.hpp>
 #include <GSMalloc.hpp>
 
+namespace std {
+    void* GS_realloc (void *userData, size_t newSize);
+}
+
 #include <limits.h>
 #include <math.h>
 #include <stddef.h>

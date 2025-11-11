@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        os-type: [ windows-2022, macos-14 ]
+        os-type: [ windows-2022, macos-15 ]
         ac-version: [ 26, 27, 28, 29 ]
 
     steps:

@@ -1,11 +1,11 @@
+#include <vector>
+#include <iostream>
+
 #include "APIEnvir.h"
 #include "ACAPinc.h"
 
 #include "ResourceIds.hpp"
 #include "DGModule.hpp"
-
-#include <vector>
-#include <iostream>
 
 static const GSResID AddOnInfoID			= ID_ADDON_INFO;
 	static const Int32 AddOnNameID			= 1;
